@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70309A0F13457B0545193C8 /* Pods_Desk_UI_2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E39E0D468E70135F5D9CB6 /* Pods_Desk_UI_2_0Tests.framework */; };
+		D9B7A4192744457FFB833D63 /* Pods_Desk_UI_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4013FA6E594D4D52D0E2060 /* Pods_Desk_UI_2_0.framework */; };
 		DEB55FE81F53306B00C97268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB55FE71F53306B00C97268 /* AppDelegate.swift */; };
 		DEB55FEA1F53306B00C97268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB55FE91F53306B00C97268 /* ViewController.swift */; };
 		DEB55FED1F53306B00C97268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB55FEB1F53306B00C97268 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		DEB55FF21F53306B00C97268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB55FF01F53306B00C97268 /* LaunchScreen.storyboard */; };
 		DEB55FFD1F53306C00C97268 /* Desk_UI_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB55FFC1F53306C00C97268 /* Desk_UI_2_0Tests.swift */; };
 		DEB560081F53306C00C97268 /* Desk_UI_2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB560071F53306C00C97268 /* Desk_UI_2_0UITests.swift */; };
+		DEF7B79E1F533118002C83F6 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7B79D1F533118002C83F6 /* Reusable.swift */; };
+		DEF7B7A11F5331EC002C83F6 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7B7A01F5331EC002C83F6 /* CustomCell.swift */; };
+		DEF7B7A31F533287002C83F6 /* CustomHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7B7A21F533287002C83F6 /* CustomHeader.swift */; };
+		DEF7B7A51F533C6B002C83F6 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF7B7A41F533C6A002C83F6 /* TabViewController.swift */; };
+		F71497846EBF17BE3A7953A4 /* Pods_Desk_UI_2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB32F5601AB2C3348D1D38A8 /* Pods_Desk_UI_2_0UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055F87114AD5E7402CBC597F /* Pods-Desk UI 2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desk UI 2.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desk UI 2.0UITests/Pods-Desk UI 2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		079669E8BCBAB7D97E5DC845 /* Pods-Desk UI 2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desk UI 2.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desk UI 2.0UITests/Pods-Desk UI 2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A07991F657C0E80A3CEC745 /* Pods-Desk UI 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desk UI 2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desk UI 2.0/Pods-Desk UI 2.0.release.xcconfig"; sourceTree = "<group>"; };
+		7B752FE5538DC4C8CCBF5AD4 /* Pods-Desk UI 2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desk UI 2.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desk UI 2.0Tests/Pods-Desk UI 2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA165AA029504702297062E /* Pods-Desk UI 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desk UI 2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Desk UI 2.0/Pods-Desk UI 2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E39E0D468E70135F5D9CB6 /* Pods_Desk_UI_2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desk_UI_2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0BC4F9B3D42D69B8D55618 /* Pods-Desk UI 2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Desk UI 2.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Desk UI 2.0Tests/Pods-Desk UI 2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DEB55FE41F53306B00C97268 /* Desk UI 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desk UI 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB55FE71F53306B00C97268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB55FE91F53306B00C97268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,12 @@
 		DEB560031F53306C00C97268 /* Desk UI 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desk UI 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB560071F53306C00C97268 /* Desk_UI_2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desk_UI_2_0UITests.swift; sourceTree = "<group>"; };
 		DEB560091F53306C00C97268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF7B79D1F533118002C83F6 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		DEF7B7A01F5331EC002C83F6 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DEF7B7A21F533287002C83F6 /* CustomHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeader.swift; sourceTree = "<group>"; };
+		DEF7B7A41F533C6A002C83F6 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		E4013FA6E594D4D52D0E2060 /* Pods_Desk_UI_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desk_UI_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB32F5601AB2C3348D1D38A8 /* Pods_Desk_UI_2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Desk_UI_2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B7A4192744457FFB833D63 /* Pods_Desk_UI_2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B70309A0F13457B0545193C8 /* Pods_Desk_UI_2_0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +90,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71497846EBF17BE3A7953A4 /* Pods_Desk_UI_2_0UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A160A3696A15F871BDABD645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FA165AA029504702297062E /* Pods-Desk UI 2.0.debug.xcconfig */,
+				2A07991F657C0E80A3CEC745 /* Pods-Desk UI 2.0.release.xcconfig */,
+				7B752FE5538DC4C8CCBF5AD4 /* Pods-Desk UI 2.0Tests.debug.xcconfig */,
+				DC0BC4F9B3D42D69B8D55618 /* Pods-Desk UI 2.0Tests.release.xcconfig */,
+				055F87114AD5E7402CBC597F /* Pods-Desk UI 2.0UITests.debug.xcconfig */,
+				079669E8BCBAB7D97E5DC845 /* Pods-Desk UI 2.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEC4CB98CFAB9FB8CE88844F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4013FA6E594D4D52D0E2060 /* Pods_Desk_UI_2_0.framework */,
+				A0E39E0D468E70135F5D9CB6 /* Pods_Desk_UI_2_0Tests.framework */,
+				EB32F5601AB2C3348D1D38A8 /* Pods_Desk_UI_2_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DEB55FDB1F53306B00C97268 = {
 			isa = PBXGroup;
 			children = (
+				DEF7B79B1F5330FC002C83F6 /* vcs */,
+				DEF7B79C1F53310B002C83F6 /* Tools */,
+				DEF7B79F1F5331D5002C83F6 /* Custom Stuff */,
 				DEB55FE61F53306B00C97268 /* Desk UI 2.0 */,
 				DEB55FFB1F53306C00C97268 /* Desk UI 2.0Tests */,
 				DEB560061F53306C00C97268 /* Desk UI 2.0UITests */,
 				DEB55FE51F53306B00C97268 /* Products */,
+				A160A3696A15F871BDABD645 /* Pods */,
+				AEC4CB98CFAB9FB8CE88844F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				DEB55FE71F53306B00C97268 /* AppDelegate.swift */,
-				DEB55FE91F53306B00C97268 /* ViewController.swift */,
 				DEB55FEB1F53306B00C97268 /* Main.storyboard */,
 				DEB55FEE1F53306B00C97268 /* Assets.xcassets */,
 				DEB55FF01F53306B00C97268 /* LaunchScreen.storyboard */,
@@ -125,6 +175,32 @@
 			path = "Desk UI 2.0UITests";
 			sourceTree = "<group>";
 		};
+		DEF7B79B1F5330FC002C83F6 /* vcs */ = {
+			isa = PBXGroup;
+			children = (
+				DEB55FE91F53306B00C97268 /* ViewController.swift */,
+				DEF7B7A41F533C6A002C83F6 /* TabViewController.swift */,
+			);
+			path = vcs;
+			sourceTree = "<group>";
+		};
+		DEF7B79C1F53310B002C83F6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DEF7B79D1F533118002C83F6 /* Reusable.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DEF7B79F1F5331D5002C83F6 /* Custom Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				DEF7B7A01F5331EC002C83F6 /* CustomCell.swift */,
+				DEF7B7A21F533287002C83F6 /* CustomHeader.swift */,
+			);
+			path = "Custom Stuff";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEB5600C1F53306C00C97268 /* Build configuration list for PBXNativeTarget "Desk UI 2.0" */;
 			buildPhases = (
+				9D5C30A40D3451DE1BAD9FDC /* [CP] Check Pods Manifest.lock */,
 				DEB55FE01F53306B00C97268 /* Sources */,
 				DEB55FE11F53306B00C97268 /* Frameworks */,
 				DEB55FE21F53306B00C97268 /* Resources */,
+				0973298E922950DDEB76DA7E /* [CP] Embed Pods Frameworks */,
+				9F6BAFA66DB2ACDFEF866E2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEB5600F1F53306C00C97268 /* Build configuration list for PBXNativeTarget "Desk UI 2.0Tests" */;
 			buildPhases = (
+				C5EB99B89222FC367956FE44 /* [CP] Check Pods Manifest.lock */,
 				DEB55FF41F53306C00C97268 /* Sources */,
 				DEB55FF51F53306C00C97268 /* Frameworks */,
 				DEB55FF61F53306C00C97268 /* Resources */,
+				DB74FF472B8EA06F7C0A1D42 /* [CP] Embed Pods Frameworks */,
+				BEB33B123CE67395B352B5F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEB560121F53306C00C97268 /* Build configuration list for PBXNativeTarget "Desk UI 2.0UITests" */;
 			buildPhases = (
+				8D37EF46AE5DAE930685B32F /* [CP] Check Pods Manifest.lock */,
 				DEB55FFF1F53306C00C97268 /* Sources */,
 				DEB560001F53306C00C97268 /* Frameworks */,
 				DEB560011F53306C00C97268 /* Resources */,
+				CC3601D15B76C1A88FF002E4 /* [CP] Embed Pods Frameworks */,
+				FA3050EA919485BD76B2D169 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +342,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0973298E922950DDEB76DA7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desk UI 2.0/Pods-Desk UI 2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D37EF46AE5DAE930685B32F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5C30A40D3451DE1BAD9FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6BAFA66DB2ACDFEF866E2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desk UI 2.0/Pods-Desk UI 2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB33B123CE67395B352B5F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desk UI 2.0Tests/Pods-Desk UI 2.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EB99B89222FC367956FE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3601D15B76C1A88FF002E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desk UI 2.0UITests/Pods-Desk UI 2.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB74FF472B8EA06F7C0A1D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desk UI 2.0Tests/Pods-Desk UI 2.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3050EA919485BD76B2D169 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Desk UI 2.0UITests/Pods-Desk UI 2.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEB55FE01F53306B00C97268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF7B7A51F533C6B002C83F6 /* TabViewController.swift in Sources */,
+				DEF7B79E1F533118002C83F6 /* Reusable.swift in Sources */,
 				DEB55FEA1F53306B00C97268 /* ViewController.swift in Sources */,
+				DEF7B7A11F5331EC002C83F6 /* CustomCell.swift in Sources */,
 				DEB55FE81F53306B00C97268 /* AppDelegate.swift in Sources */,
+				DEF7B7A31F533287002C83F6 /* CustomHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +640,7 @@
 		};
 		DEB5600D1F53306C00C97268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA165AA029504702297062E /* Pods-Desk UI 2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QH78WYZE35;
@@ -426,6 +654,7 @@
 		};
 		DEB5600E1F53306C00C97268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A07991F657C0E80A3CEC745 /* Pods-Desk UI 2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QH78WYZE35;
@@ -439,6 +668,7 @@
 		};
 		DEB560101F53306C00C97268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B752FE5538DC4C8CCBF5AD4 /* Pods-Desk UI 2.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +684,7 @@
 		};
 		DEB560111F53306C00C97268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0BC4F9B3D42D69B8D55618 /* Pods-Desk UI 2.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +700,7 @@
 		};
 		DEB560131F53306C00C97268 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055F87114AD5E7402CBC597F /* Pods-Desk UI 2.0UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QH78WYZE35;
@@ -483,6 +715,7 @@
 		};
 		DEB560141F53306C00C97268 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079669E8BCBAB7D97E5DC845 /* Pods-Desk UI 2.0UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QH78WYZE35;
@@ -514,6 +747,7 @@
 				DEB5600E1F53306C00C97268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEB5600F1F53306C00C97268 /* Build configuration list for PBXNativeTarget "Desk UI 2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +756,7 @@
 				DEB560111F53306C00C97268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEB560121F53306C00C97268 /* Build configuration list for PBXNativeTarget "Desk UI 2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +765,7 @@
 				DEB560141F53306C00C97268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
